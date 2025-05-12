@@ -1,0 +1,29 @@
+/*Selectores*/
+
+#titulo{
+    color: aqua; /*un selector tipo de id para cambiar unicamente un elemento al color indicado*/
+}
+
+p.como{
+    color: violet; /*un selector tipo class para varios elementos que comparten el mismo estilo*/
+}
+
+p.texto{
+    color: olive; /*aqui en este selector solo se le esta indicando poner los estilos a los elementos con el mismo class texto*/
+}
+
+div p {
+    color: yellowgreen; /*un selector descendente se usa para seleccionar elementos que estan dentro de otros elementos, sin importar cuantos niveles de anidacion haya entre ellos*/
+}
+
+div h2, div h3 {
+    color: gold; /*un selector compuesto */
+}
+
+/*div > p{
+    color: black; /*este es un selector de hijo directo; Este ejemplo cambiará el color a rojo solo a los <p> que sean hijos directos de un <div>, pero no afectará a los que estén más profundos (por ejemplo, dentro de un <section> dentro del <div>).
+}*/
+
+* {
+    font-size: 25px; /*un selector universal selecciona todos los elementos dentro de un documento html que no tengan estilos ya impuestos*/
+}
