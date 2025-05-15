@@ -1,0 +1,11 @@
+.color {
+    color: aqua; /*este es un selector de color con palabra clave, al poner color ponemos el nombre del color*/
+}
+
+.colorgato{
+    color: #0f45; /*este es un selector de color exadesimal hexadecimal, que se compone de 4 caracteres */
+}
+
+.colorgb{
+    color: rgb(199, 191, 40); /*este selector de color rgb,su funcion es poner el color pero atra vez valores en cada caracter RGB*/
+}
